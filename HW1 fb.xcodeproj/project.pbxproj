@@ -19,6 +19,8 @@
 		EDB167BE194579C50060304D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB167A6194579C50060304D /* UIKit.framework */; };
 		EDB167C6194579C50060304D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB167C4194579C50060304D /* InfoPlist.strings */; };
 		EDB167C8194579C50060304D /* HW1_fbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB167C7194579C50060304D /* HW1_fbTests.m */; };
+		EDB167D419457B7D0060304D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB167D219457B7D0060304D /* MainViewController.m */; };
+		EDB167D519457B7D0060304D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB167D319457B7D0060304D /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		EDB167C3194579C50060304D /* HW1 fbTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW1 fbTests-Info.plist"; sourceTree = "<group>"; };
 		EDB167C5194579C50060304D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EDB167C7194579C50060304D /* HW1_fbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW1_fbTests.m; sourceTree = "<group>"; };
+		EDB167D119457B7D0060304D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EDB167D219457B7D0060304D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EDB167D319457B7D0060304D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				EDB167B2194579C50060304D /* AppDelegate.m */,
 				EDB167B4194579C50060304D /* Images.xcassets */,
 				EDB167A9194579C50060304D /* Supporting Files */,
+				EDB167D119457B7D0060304D /* MainViewController.h */,
+				EDB167D219457B7D0060304D /* MainViewController.m */,
+				EDB167D319457B7D0060304D /* MainViewController.xib */,
 			);
 			path = "HW1 fb";
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB167AD194579C50060304D /* InfoPlist.strings in Resources */,
+				EDB167D519457B7D0060304D /* MainViewController.xib in Resources */,
 				EDB167B5194579C50060304D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB167B3194579C50060304D /* AppDelegate.m in Sources */,
+				EDB167D419457B7D0060304D /* MainViewController.m in Sources */,
 				EDB167AF194579C50060304D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
